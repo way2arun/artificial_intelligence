@@ -8,6 +8,8 @@ Pre-Requisites
 Download the Google Cloud SDK installer.
     https://cloud.google.com/sdk/docs/quickstart-windows
 
+This approach will provide prescriptive guidance on automated provisioning of infrastructure and applications.
+
 1. Allows each Business Unit/Products to create it's own Variable file
 2. build_google_cloud.py - reads the input json variable file and calls the right resource provisioning modules.
 3. This approach will help to handle different BUs or Products and able to keep the state file separate for maintaining.
