@@ -1,0 +1,18 @@
+{
+    "contentVersion": "1.0.0.0",
+    "googleCloud": {
+        "projectDetails": [
+            {
+                "project_id": "arun-acton-test1",
+                "project_name": "arunactontest1"
+            }
+        ],
+        "instances": [
+            {
+                "instance_name": "aruntest1",
+                "cpu" : 4,
+                "region" : "us-central1-a"
+            }
+        ]
+    }
+}
