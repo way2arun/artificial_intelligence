@@ -9,6 +9,7 @@ Google automation framework defines the process of spinning up environments on G
  2. [Development Environment Prerequisite](#Development-Environment-Prerequisite)
  3. [Software Installation on Developer Workstations](#Installation)
  4. [Google Automation Framework](#googleframework)
+ 5. [Google AI Project](#google-ai-project)
 &NewLine;
 &NewLine;
 ### 1. Prerequisite 
@@ -97,3 +98,15 @@ This approach will provide prescriptive guidance on automated provisioning of in
 3. This approach will help to handle different BUs or Products and able to keep the state file separate for maintaining.
 4. More Development required to keep the credentials to keep it on the KeyVault etc. (have to check with Google Cloud Subject Matter Expert on the details)
 &NewLine; 
+&NewLine;
+### 5. Google AI Project
+&NewLine;
+&NewLine;
+Google Image Vision API can detect and extract text from images.TEXT_DETECTION detects and extracts text from any image. For example, a photograph might contain a Ingrediants/Nutrition details. The JSON includes the entire extracted string, as well as individual words, and their bounding boxes.
+&NewLine;
+Projects
+Google Cloud Platform resources must belong to a project. Project consists of the settings, permissions and other metadata that describes the applications.
+Each Project has:
+A project name, which we provide.
+A project ID, which we can provide or Google Cloud Platform can provide for us (have to check with Google Subject Matter Expert).
+A project number, which Google Cloud Platform provides.
