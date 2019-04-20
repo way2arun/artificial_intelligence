@@ -106,7 +106,9 @@ Google Image Vision API can detect and extract text from images.TEXT_DETECTION d
 &NewLine;
 Projects
 Google Cloud Platform resources must belong to a project. Project consists of the settings, permissions and other metadata that describes the applications.
+&NewLine;
 Each Project has:
 A project name, which we provide.
 A project ID, which we can provide or Google Cloud Platform can provide for us (have to check with Google Subject Matter Expert).
 A project number, which Google Cloud Platform provides.
+&NewLine;
