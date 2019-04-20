@@ -9,6 +9,7 @@ Google automation framework defines the process of spinning up environments on G
  2. [Development Environment Prerequisite](#Development-Environment-Prerequisite)
  3. [Software Installation on Developer Workstations](#Installation)
  4. [Google Automation Framework](#googleframework)
+ 5. [Google AI Project](#google-ai-project)
 &NewLine;
 &NewLine;
 ### 1. Prerequisite 
@@ -69,7 +70,7 @@ Once the Prerequisites(#prerequisite) are in place, below softwares needs to be 
 &NewLine;
 ### 4. Google Automation Framewor
 &NewLine;
-#### 1. GsuiteFrame     
+#### 1. GSuiteFrame     
 Framework consist of environments, parameters and logs as described below:
 This is one kind of sample to show the power and richness of the google cloud automation, the intention behind this code is to demonstrate provisioning of the resources on cloud through gcloud.
 
@@ -95,5 +96,40 @@ This approach will provide prescriptive guidance on automated provisioning of in
 1. Allows each Business Unit/Products to create it's own Variable file
 2. build_google_cloud.py - reads the input json variable file and calls the right resource provisioning modules.
 3. This approach will help to handle different BUs or Products and able to keep the state file separate for maintaining.
-4. More Development required to keep the credentials to keep it on the KeyVault etc.
+4. More Development required to keep the credentials to keep it on the KeyVault etc. (have to check with Google Cloud Subject Matter Expert on the details)
 &NewLine; 
+&NewLine;
+### 5. Google AI Project
+&NewLine;
+&NewLine;
+Google Image Vision API can detect and extract text from images.TEXT_DETECTION detects and extracts text from any image. For example, a photograph might contain a Ingrediants/Nutrition details. The JSON includes the entire extracted string, as well as individual words, and their bounding boxes.
+&NewLine;
+### Projects
+Google Cloud Platform resources must belong to a project. Project consists of the settings, permissions and other metadata that describes the applications.
+&NewLine;
+&NewLine;
+Each Project has:
+&NewLine;
+```
+    1. A project name, which we provide.
+    2. A project ID, which we can provide or Google Cloud Platform can provide for us (have to check with Google Subject Matter Expert).
+    3. A project number, which Google Cloud Platform provides.
+```
+&NewLine;
+### About the Project
+This project is about Nutrition Fact Checking Application, it detects an image, and read through the ingrediants or nutritions, identifies the Calories, fats, proteins, sugar, sodium carbs etc. Once we get the information we can send the data back to the user stating the nutrition facts, like if sugar is greater than 24grams, its not good for the health in the long run, like how much sodium should take, (data collection is not fully completed)
+Currently am using the credentials in a json file, which is not the right way to go for it, (will  be checking with Google Subject Matter Experts to understand this.)
+&NewLine;
+&NewLine;
+```
+    Check the resources folder, where you can see a cocacola.jpg, the application reads throguh the image and identifies the nutrition facts, this shows the richness of the google AI apis and its usages.
+    (https://github.com/way2arun/googlecloud/blob/master/google-ai/resources/cocacola.jpg)
+    
+```
+&NewLine;
+&NewLine;
+```
+    Note:: I cannot able to commit the authorization json, as it contains most protected confidential informations.
+    Happy Coding
+```
+
