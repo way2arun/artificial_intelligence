@@ -104,11 +104,15 @@ This approach will provide prescriptive guidance on automated provisioning of in
 &NewLine;
 Google Image Vision API can detect and extract text from images.TEXT_DETECTION detects and extracts text from any image. For example, a photograph might contain a Ingrediants/Nutrition details. The JSON includes the entire extracted string, as well as individual words, and their bounding boxes.
 &NewLine;
-Projects
+### Projects
 Google Cloud Platform resources must belong to a project. Project consists of the settings, permissions and other metadata that describes the applications.
 &NewLine;
+&NewLine;
 Each Project has:
-A project name, which we provide.
-A project ID, which we can provide or Google Cloud Platform can provide for us (have to check with Google Subject Matter Expert).
-A project number, which Google Cloud Platform provides.
+&NewLine;
+```
+    1. A project name, which we provide.
+    2. A project ID, which we can provide or Google Cloud Platform can provide for us (have to check with Google Subject Matter Expert).
+    3. A project number, which Google Cloud Platform provides.
+```
 &NewLine;
