@@ -118,3 +118,7 @@ Each Project has:
 &NewLine;
 ### About the Project
 This project is about Nutrition Fact Checking Application, it detects an image, and read through the ingrediants or nutritions, identifies the Calories, fats, proteins, sugar, sodium carbs etc. Once we get the information we can send the data back to the user stating the nutrition facts, like if sugar is greater than 24grams, its not good for the health in the long run, like how much sodium should take, (data collection is not fully completed)
+Currently am using the credentials in a json file, which is not the right way to go for it, (will  be checking with Google Subject Matter Experts to understand this.)
+&NewLine;
+Check the resources folder, where you can see a cocacola.jpg, the application reads throguh the image and identifies the nutrition facts, this shows the richness of the google AI apis and its usages.
+
