@@ -116,3 +116,5 @@ Each Project has:
     3. A project number, which Google Cloud Platform provides.
 ```
 &NewLine;
+### About the Project
+This project is about Nutrition Fact Checking Application, it detects an image, and read through the ingrediants or nutritions, identifies the Calories, fats, proteins, sugar, sodium carbs etc. Once we get the information we can send the data back to the user stating the nutrition facts, like if sugar is greater than 24grams, its not good for the health in the long run, like how much sodium should take, (data collection is not fully completed)
