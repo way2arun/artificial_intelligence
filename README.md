@@ -123,6 +123,8 @@ Currently am using the credentials in a json file, which is not the right way to
 &NewLine;
 ```
     Check the resources folder, where you can see a cocacola.jpg, the application reads throguh the image and identifies the nutrition facts, this shows the richness of the google AI apis and its usages.
+    https://github.com/way2arun/googlecloud/blob/master/google-ai/resources/cocacola.jpg
+    
 ```
 &NewLine;
 &NewLine;
