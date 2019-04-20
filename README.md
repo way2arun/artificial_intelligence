@@ -69,7 +69,7 @@ Once the Prerequisites(#prerequisite) are in place, below softwares needs to be 
 &NewLine;
 ### 4. Google Automation Framewor
 &NewLine;
-#### 1. GsuiteFrame     
+#### 1. GSuiteFrame     
 Framework consist of environments, parameters and logs as described below:
 This is one kind of sample to show the power and richness of the google cloud automation, the intention behind this code is to demonstrate provisioning of the resources on cloud through gcloud.
 
