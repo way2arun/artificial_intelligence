@@ -95,5 +95,5 @@ This approach will provide prescriptive guidance on automated provisioning of in
 1. Allows each Business Unit/Products to create it's own Variable file
 2. build_google_cloud.py - reads the input json variable file and calls the right resource provisioning modules.
 3. This approach will help to handle different BUs or Products and able to keep the state file separate for maintaining.
-4. More Development required to keep the credentials to keep it on the KeyVault etc.
+4. More Development required to keep the credentials to keep it on the KeyVault etc. (have to check with Google Cloud Subject Matter Expert on the details)
 &NewLine; 
