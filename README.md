@@ -79,16 +79,14 @@ This is one kind of sample to show the power and richness of the google cloud au
   Environments folder consist of environment build templates and scripts used for spinning up environments for projects residing on google cloud. Following environment structures defined and used based on the releases and requirements.
 &NewLine; 
 ```
-    compute
-    management
-    network
-    policy
-    policy-set
-    roles
-    scripts
-    security
-    spn
-    storage
+    google projects
+    google folders
+    google network
+    google rule-set
+    google rbac
+    google security
+    service account
+    google storage
 ```
 &NewLine; 
 &NewLine; 
