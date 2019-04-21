@@ -36,7 +36,7 @@ def load_json(filename):
     return jsondata
 
 
-def run_subprocess_cmd(cmd, ignoreerror=False, maskoutput=False, outputmask="Error output is masked"):
+def run_subprocess_cmd(cmd):
     """ Run a sub-process command"""
     result = '[]'
     errresult = None
